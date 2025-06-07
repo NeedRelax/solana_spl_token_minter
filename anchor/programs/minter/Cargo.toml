@@ -1,12 +1,12 @@
 [package]
-name = "spl_token_minter"
+name = "minter"
 version = "0.1.0"
 description = "Created with Anchor"
 edition = "2021"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "spl_token_minter"
+name = "minter"
 
 [features]
 default = []
@@ -21,3 +21,4 @@ idl-build = ["anchor-lang/idl-build","anchor-spl/idl-build"]
 anchor-lang = {version="0.31.1",features = ["init-if-needed"]}
 anchor-spl = { version = "0.31.1" }
 solana-program = { version = "^2.2.1", package = "solana-program" }
+bytemuck = "1.15"
