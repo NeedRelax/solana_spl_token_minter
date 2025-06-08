@@ -6,7 +6,7 @@ use anchor_spl::{
     token::{self, Mint, MintTo, Token, TokenAccount}, // 导入SPL Token相关类型和方法
 };
 
-declare_id!("FqzkXZdwYjurnUKetJCAvaUw5WAqbwzU6gZEwydeEfqS"); // 声明程序的ID
+declare_id!("HJwc4QUhPiW6jvPipDB1Tso5vVKcpkSGLFFiN73HANi1"); // 声明程序的ID
 
 #[program] // 定义Anchor程序模块
 pub mod minter {
